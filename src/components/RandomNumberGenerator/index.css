@@ -43,6 +43,7 @@
 .random-number {
   color: #0b69ff;
   font-size: 25px;
+  font-weight:600;
   margin: 10px;
 }
 @media screen and (min-width: 768px) {
@@ -70,5 +71,6 @@
   }
   .random-number {
     font-size: 45px;
+    font-weight:600;
   }
 }
