@@ -1,0 +1,74 @@
+/* Write your CSS here */
+.random-number-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/random-no-generator-bg.png');
+  height: 100vh;
+  font-family: Roboto;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.card-container {
+  background-color: #ffffff;
+  border: 2px solid #e4ebf3;
+  border-radius: 20px;
+  box-shadow: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  height: 300px;
+  width: 300px;
+}
+.heading {
+  font-size: 20px;
+  color: #0b69ff;
+  font-weight: 600;
+}
+.paragraph {
+  color: #333333;
+  font-size: 10px;
+}
+.generate-btn {
+  background-color: #0b69ff;
+  color: #ffffff;
+  border-radius: 8px;
+  border-width: 0;
+  height: 26px;
+  width: 68px;
+  font-size: 10px;
+}
+.random-number {
+  color: #0b69ff;
+  font-size: 25px;
+  margin: 10px;
+}
+@media screen and (min-width: 768px) {
+  .card-container {
+    border-radius: 30px;
+    padding: 20px;
+    height: 600px;
+    width: 600px;
+  }
+  .heading {
+    font-size: 40px;
+    color: #0b69ff;
+    font-weight: 600;
+  }
+  .paragraph {
+    color: #333333;
+    font-size: 20px;
+  }
+  .generate-btn {
+    border-radius: 10px;
+
+    height: 46px;
+    width: 148px;
+    font-size: 20px;
+  }
+  .random-number {
+    font-size: 45px;
+  }
+}
